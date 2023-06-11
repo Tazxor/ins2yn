@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+    color: burlywood;
+    font-size: 60px;
+}
+p{
+    background-color:aquamarine;
+    margin: 10px;
+}
+#note{
+    font-size: 20px;
+}
+#qcm{
+    background-color:bisque;
+    column-count: 2;
+    font-size: 20px;
+}

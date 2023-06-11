@@ -1,0 +1,46 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+    color:rgb(96, 133, 218);
+}
+
+body{
+    background-color: black;
+        text-align: center;
+
+
+}
+textarea{
+    border-radius: 15px;
+}
+textarea:hover{
+    border-radius: 15px; 
+    border: 2px solid seagreen;
+}
+section{
+height: 600px;
+width: 600px;
+
+}
+input{
+    border: 2px solid black;
+    border-radius: 15px;
+ margin: 10px;
+}
+
+input:hover{
+    border: 2px solid blue;
+}
+[value*="Ro"]:hover{
+    background-color: red;
+
+}
+[value*="Ve"]:hover{
+    background-color: rgb(0, 255, 38);
+
+}
+[value*="Ble"]:hover{
+    background-color: rgb(76, 0, 255);
+}

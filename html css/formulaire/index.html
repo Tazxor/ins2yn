@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <main>
+        <section>
+        <form action="">
+            <label for="Nom">NOM</label><input type="text">
+            <label for="Premon">Premon</label><input type="text">
+            <br>
+            <textarea name="commentaire" cols="30"
+                rows="10">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus esse illum quisquam blanditiis. Veritatis ipsa placeat sequi fuga assumenda culpa inventore possimus cum, animi, nisi iusto est nam tempore amet.</textarea>
+            <br>
+            <input type="radio" name="couleur" value="Bleu">Bleu
+            <input type="radio" name="couleur" value="Rouge">Rouge
+            <input type="radio" name="couleur" value="Vert">Vert
+            <br>
+            <input type="checkbox" name="couleur1" value="Bleu">Bleu
+            <input type="checkbox" name="couleur2" value="Rouge">Rouge
+            <input type="checkbox" name="couleur3" value="Vert">Vert
+            <br>
+            <select name="couge" size="3">
+                <option value="Bleu">Bleu</option>
+                <option value="Rouge">Rouge</option>
+                <option value="Vert">Vert</option>
+                <option value="Jaune">Jaune</option>
+                <option value="Blanc">Blanc</option>
+            </select>
+            <br>
+            <input type="file" name="fichier" accept="image/png">
+    <input type="hidden" ...>
+     </section>           
+     <section>
+    <fieldset>
+        <legend>Coordonnées</legend>
+        <label for="nom">Nom:</label>
+        <input type="text" name="nom" id="?">
+        <br>
+        <label for="?">Email:</label>
+        <input type="email" name="email">
+        <br>
+        <label for="date">Date de naissance:</label>
+        <input type="date" name="ddn" id="date">
+        <label for="metiers2">Sélectionnez votre métier</label>
+        <input type="text" name="metiers1" id="metiers2" list="metiers3">
+       <label for="ice-cream-choice">Choose a flavor:</label>
+        <input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice"> 
+                <datalist id="ice-cream-flavors">
+                        <option value="Chocolate">
+                        <option value="Coconut">
+                        <option value="Mint">
+                        <option value="Strawberry">
+                        <option value="Vanilla">
+        
+                </datalist>
+        <input type="text" placeholder="Entrez votre nom" pattern="^[a-z]+$" requiredtitle="Entrez votre nom que des caractères entre a et" >
+        <input type="submit" value="Envoyer">
+        </fieldset>
+    </section>      
+        </form>
+
+    </main>
+</body>
+
+</html>

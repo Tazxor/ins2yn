@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inscription</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <h1>Formulaire d'inscription</h1>
+    <form action="" method="post">
+        <table>
+            <tr>
+                <td>
+                    <label for="etatCivil">Etat civil</label>
+                </td>
+                <td>
+                    <select name="pays" id="etatCivil">
+                        <option value="monsieur">M</option>
+                        <option value="Madame">Mme</option>
+                    </select>
+                </td>
+            </tr>
+
+
+            <td><label for="nom">Nom</label></td>
+            <td><input type="text" name="nom" id="nom">
+            </td>
+            </tr>
+            <tr>
+                <td><label for="prenom">Prénom</label></td>
+                <td><input type="text" name="prenom" id="prenom">
+                </td>
+            </tr>
+
+        
+            <tr>
+                <td><label for="dateNaissance">Date Naissance</label></td>
+                <td><input type="datetime-local" name="dateNaissance" id="dateNaissance" min="1923-01-01T00:00"
+                        max="2023-01-01T00:00">
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="cn">Commuune de Naissance</label></td>
+                <td><input type="text" name="cn" id="cn">
+                </td>
+            </tr>
+
+            <tr><h2>Coordonnées </h2></tr>
+
+            <tr>
+                <td><label for="téléphone">Téléphone</label></td>
+                <td><input type="tel" name="téléphone" id="téléphone">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="courriel">Courriel</label></td>
+                <td><input type="email" name="courriel" id="courriel">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="SW">Site web</label></td>
+                <td><input type="text" name="sw" id="sw">
+                </td>
+            </tr>
+            <tr>Compétences</tr>
+            <tr>
+            <td>Niveau d'anglais :</td> 
+            <td>
+                <td><label for="c1">C1</label><input type="radio" name="anglais" id="anglais" value="c1"></td>   
+                <td><label for="b1">B1</label><input type="radio" name="anglais" id="anglais" value="b1"></td>   
+                <td><label for="a1">A1</label><input type="radio" name="anglais" id="anglais" value="a1"></td>   
+            
+
+        </td>
+    </tr>
+            <tr>
+            <td>Langages informatiques :</td> 
+            <td>
+                <td><label for="li1">html</label><input type="checkbox" name="langagesInformatique" id="langagesInformatique" value="li1"></td>   
+                <td><label for="li2">css</label><input type="checkbox" name="langagesInformatique" id="langagesInformatique" value="li2"></td>   
+                <td><label for="li3">javascript</label><input type="checkbox" name="langagesInformatique" id="langagesInformatique" value="li3"></td>   
+                <td><label for="li4">php</label><input type="checkbox" name="langagesInformatique" id="langagesInformatique" value="li4"></td>   
+
+            
+
+        </td>
+    </tr>
+
+            <tr>
+                <td><button type="reset" name="vider" value="vider" id="vider">Reinitialiser</button>
+                    <button type="submit">Envoyer</button>
+
+
+
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
